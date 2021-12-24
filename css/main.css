@@ -53,26 +53,32 @@ button {
   font-family: "Cairo", sans-serif;
 }
 
-#history {
+.history {
   background-color: #039be569;
   color: #0d47a1;
 }
 
-#vision {
+.vision {
   background-color: #a8a4a4;
   color: #000;
 }
 
-#goals {
+.goals {
   background-color: #fff;
   color: #000;
 }
 
 .about-body .data {
-  background-color: #fff;
+  background-color: #039be569;
   padding: 35px;
   width: 98%;
   border-radius: 3px;
+  transition: all 2s;
+}
+
+.about-body .data h4,
+.about-body .data p {
+  color: #0d47a1;
 }
 
 .hidden {
